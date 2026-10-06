@@ -1,2 +1,15 @@
-# NeuroAI-Emotion-Decoder
-# NeuroAI-Emotion-Decoder
+# 🧠 NeuroAI Emotion Decoder
+
+NeuroAI Emotion Decoder is our Final Year Project focused on using **AI to understand a person’s mental and emotional state through multiple types of input**. Instead of depending on only one source, the system combines **text, voice, and clinical assessment** to provide a broader view of the user’s emotional and mental health condition. The main idea is to make mental health analysis more accessible while also giving doctors useful information that can support their understanding of a patient.
+
+The system includes **Text Emotion Analysis**, where the user's text is analyzed using a model trained with the **GoEmotions dataset**, and **Suicide Risk Detection**, which identifies possible suicidal or self-harm-related indicators from text. It also includes **Voice Emotion Analysis**, where the user's voice is analyzed using a model trained with the **CREMA-D dataset** to identify emotions expressed through speech. Along with these AI-based features, the system provides a **PHQ-9 assessment** to capture clinically relevant depression-screening information.
+
+One of the main parts of NeuroAI is the **Multimodal Fusion Layer**, which brings together the results from text analysis, voice analysis, and PHQ-9 assessment. This allows the system to look at different signals together instead of relying on a single prediction. The combined results are then presented through dedicated **Patient and Doctor Dashboards**, where users can view their assessments and doctors can review patient information, emotional patterns, risk indicators, assessment results, and other available insights.
+
+The project also includes an **AI Copilot** that helps users understand their available mental health information, previous assessments, and generated results in a more conversational way. The overall system is built using **React, JavaScript, HTML, CSS, Vite, Python, FastAPI, PyTorch, Transformers, Hugging Face, Scikit-learn, and NumPy**, with the trained models stored using **Git LFS** because of their large size.
+
+The project contains the complete application source code along with the trained AI models for text emotion detection, suicide-risk detection, and voice emotion recognition. To run the project, clone the repository, install the required frontend and backend dependencies, set up the Python environment, and use Git LFS to retrieve the model files.
+
+**Project highlights:** • 📝 Text Emotion Analysis • 🎙️ Voice Emotion Analysis • ⚠️ Suicide Risk Detection • 🧠 PHQ-9 Assessment • 🔗 Multimodal Fusion • 👨‍⚕️ Doctor Dashboard • 👤 Patient Dashboard • 🤖 AI Copilot • 📊 Mental Health Insights • 🤖 Trained AI Models.
+
+NeuroAI Emotion Decoder is developed as an **academic Final Year Project and research prototype**. It is intended to provide AI-assisted insights and should **not be considered a medical diagnosis or a replacement for a qualified mental health professional**. AI predictions, especially suicide-risk predictions, should always be interpreted carefully and reviewed by appropriate professionals.
