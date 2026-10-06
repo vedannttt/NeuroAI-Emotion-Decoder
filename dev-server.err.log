@@ -1,0 +1,154 @@
+(node:17488) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+INFO:     Started server process [16160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-08-26 13:43:45,611 INFO neuroai {"event":"request_complete","request_id":"03ae509d-7d91-4014-8aa0-5da11ef7e525","method":"GET","path":"/api/health","status":200,"duration_ms":52.81}
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  33%|###2      | 66/201 [00:00<00:00, 659.07it/s]Loading weights:  66%|######5   | 132/201 [00:00<00:00, 627.33it/s]Loading weights:  97%|#########7| 195/201 [00:00<00:00, 562.75it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 594.90it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  47%|####6     | 94/201 [00:00<00:00, 919.17it/s]Loading weights:  93%|#########2| 186/201 [00:00<00:00, 869.34it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 912.75it/s]
+2026-08-26 13:43:53,764 INFO app.services.model_manager CREMA-D voice neural network model loaded successfully via PyTorch runtime
+2026-08-26 13:43:53,768 INFO app.services.model_manager NeuroAI model loader initialization finished
+2026-08-26 13:44:21,987 INFO neuroai {"event":"request_complete","request_id":"dfc35512-b139-473a-befc-bb81868b0088","method":"GET","path":"/api/health","status":200,"duration_ms":2.72}
+2026-08-26 13:46:50,685 INFO neuroai {"event":"request_complete","request_id":"cb2f2e36-63f4-4200-907c-cf103d2d7282","method":"OPTIONS","path":"/api/auth/login","status":200,"duration_ms":0.42}
+2026-08-26 13:46:51,361 INFO neuroai {"event":"request_complete","request_id":"645532a3-b1e1-4513-879c-7e3ff95f77f8","method":"POST","path":"/api/auth/login","status":401,"duration_ms":669.75}
+2026-08-26 13:46:56,894 INFO neuroai {"event":"request_complete","request_id":"7a2c94bb-3eb3-4790-a597-464a350c55ef","method":"POST","path":"/api/auth/login","status":401,"duration_ms":937.11}
+2026-08-26 13:47:03,477 INFO neuroai {"event":"request_complete","request_id":"ad78f677-530b-4d60-bd6e-23aeb0a12db7","method":"POST","path":"/api/auth/login","status":200,"duration_ms":915.72}
+2026-08-26 13:47:03,489 INFO neuroai {"event":"request_complete","request_id":"8c8f7ee9-5e70-4213-92df-09ef66f342cd","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":0.44}
+2026-08-26 13:47:03,505 INFO neuroai {"event":"request_complete","request_id":"2850b769-366a-4660-a5b5-43b3668fc0d8","method":"GET","path":"/api/auth/me","status":200,"duration_ms":11.47}
+2026-08-26 13:47:03,624 INFO neuroai {"event":"request_complete","request_id":"479c74cf-3ffb-4f59-9bb8-911d1c9aa8a4","method":"OPTIONS","path":"/api/reports/history","status":200,"duration_ms":0.48}
+2026-08-26 13:47:03,668 INFO neuroai {"event":"request_complete","request_id":"a6711794-b433-4fbc-93d8-a847b3778427","method":"GET","path":"/api/reports/history","status":200,"duration_ms":38.48}
+2026-08-26 13:47:43,564 INFO neuroai {"event":"request_complete","request_id":"ecaff823-323c-4ba3-bfcd-e6ed7a0e7b8c","method":"OPTIONS","path":"/api/voice/analyze","status":200,"duration_ms":0.43}
+2026-08-26 13:47:48,411 INFO neuroai {"event":"request_complete","request_id":"d0e76792-7a54-4b79-a6b9-c7040ab73f51","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":4834.45}
+2026-08-26 13:48:29,214 INFO neuroai {"event":"request_complete","request_id":"1c4c7260-3410-4633-b0a4-1c57859aa0b2","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":43.89}
+2026-08-26 13:48:30,838 INFO neuroai {"event":"request_complete","request_id":"1a5f29ef-2389-4fc4-8415-95749f8786d4","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":47.81}
+2026-08-26 13:48:31,033 INFO neuroai {"event":"request_complete","request_id":"b84f4ca8-7e1f-4930-b037-cd3ea009155b","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":36.87}
+2026-08-26 13:48:31,273 INFO neuroai {"event":"request_complete","request_id":"dbc67e31-6d2d-41a4-9c00-eeab899e0818","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":47.54}
+2026-08-26 14:39:10,462 INFO neuroai {"event":"request_complete","request_id":"06b43b9a-e944-43ac-b099-68e97d4223eb","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":0.46}
+2026-08-26 14:39:10,473 INFO neuroai {"event":"request_complete","request_id":"f0f32016-56db-4574-94a4-37e2e2c8313d","method":"GET","path":"/api/auth/me","status":401,"duration_ms":3.49}
+2026-08-26 18:50:13,740 INFO neuroai {"event":"request_complete","request_id":"7ddafe82-f52e-4928-852e-b76c2e3494d3","method":"GET","path":"/api/health","status":200,"duration_ms":2.06}
+2026-08-26 18:50:15,643 INFO neuroai {"event":"request_complete","request_id":"8fb537ba-eeaa-49a7-851c-4a62b0dc774e","method":"GET","path":"/favicon.ico","status":404,"duration_ms":2.37}
+2026-08-26 18:50:16,552 INFO neuroai {"event":"request_complete","request_id":"080bc4b2-2256-408a-a7d6-fd0411928c43","method":"GET","path":"/api/profileBg.png","status":404,"duration_ms":1.19}
+2026-08-26 18:50:16,567 INFO neuroai {"event":"request_complete","request_id":"affc1665-a48f-4adf-8bab-541bb30cce30","method":"GET","path":"/api/bannerLeft.png","status":404,"duration_ms":9.16}
+2026-08-26 18:50:16,569 INFO neuroai {"event":"request_complete","request_id":"10bebabd-c9bd-4c42-ac1c-be4dbd1444f4","method":"GET","path":"/api/bannerRight.png","status":404,"duration_ms":10.58}
+2026-08-26 18:50:16,572 INFO neuroai {"event":"request_complete","request_id":"5f70f99c-11bc-49d0-b0db-74cba374ff2f","method":"GET","path":"/api/featureBg.png","status":404,"duration_ms":11.6}
+2026-08-26 18:50:16,574 INFO neuroai {"event":"request_complete","request_id":"79d7650c-1111-4f75-905a-bd43efe7c8b2","method":"GET","path":"/api/black5FeatureBg.png","status":404,"duration_ms":10.17}
+2026-08-26 18:50:16,576 INFO neuroai {"event":"request_complete","request_id":"6d614665-b26e-4ace-b83f-1178322d4243","method":"GET","path":"/api/starBadge.png","status":404,"duration_ms":11.33}
+2026-08-26 18:50:16,579 INFO neuroai {"event":"request_complete","request_id":"7e761f60-936d-415f-8bbc-96dc49e8445f","method":"GET","path":"/api/upgrade_dialog.webp","status":404,"duration_ms":13.06}
+2026-08-26 18:50:16,586 INFO neuroai {"event":"request_complete","request_id":"62d60ab1-6f26-40f5-8d51-adce5aad6b92","method":"GET","path":"/api/dialogLeft.png","status":404,"duration_ms":5.77}
+2026-08-26 18:50:16,589 INFO neuroai {"event":"request_complete","request_id":"8ffbf9f0-7150-42d8-8b8c-9b57a2c2e282","method":"GET","path":"/api/dialogRight.png","status":404,"duration_ms":7.3}
+2026-08-26 18:50:16,592 INFO neuroai {"event":"request_complete","request_id":"9fd74198-aa8a-49c5-8d7b-61e248a9328b","method":"GET","path":"/api/badge.png","status":404,"duration_ms":8.47}
+2026-08-26 18:50:16,594 INFO neuroai {"event":"request_complete","request_id":"37f8579d-c00b-4354-90d6-cb21666e6700","method":"GET","path":"/api/highLightTitle.png","status":404,"duration_ms":9.57}
+2026-08-26 18:50:37,126 INFO neuroai {"event":"request_complete","request_id":"7d99c4f7-7b2f-43c1-9827-4f9e496da852","method":"OPTIONS","path":"/api/auth/login","status":200,"duration_ms":0.22}
+2026-08-26 18:50:37,423 INFO neuroai {"event":"request_complete","request_id":"e4501bbd-8f4b-4cdb-bff6-a27350c551f8","method":"POST","path":"/api/auth/login","status":200,"duration_ms":275.44}
+2026-08-26 18:50:37,460 INFO neuroai {"event":"request_complete","request_id":"8d591964-a7b2-4a6f-a1bb-ea52dd0b24f6","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":0.35}
+2026-08-26 18:50:37,475 INFO neuroai {"event":"request_complete","request_id":"02146be4-161f-44c0-a205-512921280139","method":"GET","path":"/api/auth/me","status":200,"duration_ms":7.6}
+2026-08-26 18:50:37,549 INFO neuroai {"event":"request_complete","request_id":"6ccb8bf7-6ca9-4049-be1d-c69b1798b224","method":"OPTIONS","path":"/api/reports/history","status":200,"duration_ms":0.37}
+2026-08-26 18:50:37,565 INFO neuroai {"event":"request_complete","request_id":"6da67d04-df9e-481e-9aaa-17eaec51dd5c","method":"GET","path":"/api/reports/history","status":200,"duration_ms":10.88}
+2026-08-26 18:50:49,176 INFO neuroai {"event":"request_complete","request_id":"eef54de6-6bb2-472d-8c90-d35f628043de","method":"GET","path":"/api/reports/history","status":200,"duration_ms":9.03}
+2026-08-26 18:50:57,469 INFO neuroai {"event":"request_complete","request_id":"9ba500b2-0a61-434b-91ab-002c8353f203","method":"GET","path":"/api/reports/history","status":200,"duration_ms":10.12}
+2026-08-26 18:51:04,913 INFO neuroai {"event":"request_complete","request_id":"1bb90345-f466-44ea-803c-9b2fda5af2ae","method":"GET","path":"/api/auth/me","status":200,"duration_ms":9.23}
+2026-08-26 18:51:04,988 INFO neuroai {"event":"request_complete","request_id":"758134d6-aab3-447f-94cd-10458a9a398f","method":"GET","path":"/api/reports/history","status":200,"duration_ms":13.96}
+2026-08-26 18:51:11,338 INFO neuroai {"event":"request_complete","request_id":"c48b4bc8-c834-4b28-9003-eb182681b96a","method":"GET","path":"/api/auth/me","status":200,"duration_ms":8.0}
+2026-08-26 18:51:11,422 INFO neuroai {"event":"request_complete","request_id":"e52631df-f62d-420c-ab16-ae023f389140","method":"GET","path":"/api/reports/history","status":200,"duration_ms":13.38}
+2026-08-26 18:51:21,095 INFO neuroai {"event":"request_complete","request_id":"275e7872-4f9d-4eb0-bc29-169f375cd44e","method":"GET","path":"/api/reports/history","status":200,"duration_ms":28.33}
+2026-08-26 18:51:31,338 INFO neuroai {"event":"request_complete","request_id":"1df30cf1-1d50-4185-9ac0-8f1d3a3ceb5b","method":"GET","path":"/api/auth/me","status":200,"duration_ms":10.19}
+2026-08-26 18:51:31,398 INFO neuroai {"event":"request_complete","request_id":"741db3b4-e019-45a1-965e-90799d8229c4","method":"GET","path":"/api/reports/history","status":200,"duration_ms":15.01}
+2026-08-26 18:54:28,757 INFO neuroai {"event":"request_complete","request_id":"c19f3ded-d274-45e2-9dca-2c3c7ae63e0b","method":"OPTIONS","path":"/api/voice/analyze","status":200,"duration_ms":0.3}
+2026-08-26 18:54:28,817 INFO neuroai {"event":"request_complete","request_id":"51857adb-922a-44c5-abdf-f65362d28de6","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":52.13}
+2026-08-26 18:54:30,303 INFO neuroai {"event":"request_complete","request_id":"2a70989f-7319-4d89-b9cd-bb19c77a939c","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":53.05}
+2026-08-26 18:54:33,623 INFO neuroai {"event":"request_complete","request_id":"bea4ff7c-f0f8-40be-a57b-a8353726b163","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":42.54}
+2026-08-26 18:54:39,677 INFO neuroai {"event":"request_complete","request_id":"9fc15d19-378b-41a0-b515-236d37c47a0a","method":"GET","path":"/api/reports/history","status":200,"duration_ms":14.52}
+2026-08-26 18:54:50,627 INFO neuroai {"event":"request_complete","request_id":"8d1b3e1a-7745-4586-84d3-c0087bd90bf4","method":"GET","path":"/api/reports/history","status":200,"duration_ms":10.1}
+2026-08-26 18:59:01,112 INFO neuroai {"event":"voice_prediction","emotion":"Sad","confidence":21.74,"duration_ms":14335.12}
+2026-08-26 18:59:01,137 INFO neuroai {"event":"voice_inference","user_id":9,"emotion":"Sad","duration_ms":14360.53}
+2026-08-26 18:59:01,138 INFO neuroai {"event":"request_complete","request_id":"1fcce864-0058-4d4c-aa1b-4141dd7e178a","method":"POST","path":"/api/voice/analyze","status":200,"duration_ms":14377.7}
+2026-08-26 18:59:26,796 INFO neuroai {"event":"request_complete","request_id":"3b7c8032-542d-4efe-86c4-a461d368a6cb","method":"GET","path":"/api/reports/history","status":200,"duration_ms":13.7}
+2026-08-26 18:59:30,212 INFO neuroai {"event":"request_complete","request_id":"914df211-9753-4269-b516-246f7c703e42","method":"GET","path":"/api/reports/history","status":200,"duration_ms":9.47}
+2026-08-26 19:00:17,207 INFO neuroai {"event":"request_complete","request_id":"558b3a39-f568-4fc1-8714-86345ca76c62","method":"OPTIONS","path":"/api/text/analyze","status":200,"duration_ms":0.29}
+2026-08-26 19:00:18,512 INFO neuroai {"event":"text_inference","user_id":9,"emotion":"joy","duration_ms":1285.46}
+2026-08-26 19:00:18,514 INFO neuroai {"event":"request_complete","request_id":"4b6d3f17-3585-4921-9f61-ea1deb54f34d","method":"POST","path":"/api/text/analyze","status":200,"duration_ms":1297.43}
+2026-08-26 19:00:18,648 INFO neuroai {"event":"voice_prediction","emotion":"Sad","confidence":34.64,"duration_ms":108.09}
+2026-08-26 19:00:18,668 INFO neuroai {"event":"voice_inference","user_id":9,"emotion":"Sad","duration_ms":128.85}
+2026-08-26 19:00:18,671 INFO neuroai {"event":"request_complete","request_id":"dddce2bb-89e3-4baf-b11e-a259af86fd41","method":"POST","path":"/api/voice/analyze","status":200,"duration_ms":147.27}
+2026-08-26 19:00:18,683 INFO neuroai {"event":"request_complete","request_id":"57825ef4-a92b-4a90-87ae-f079c9c3363b","method":"OPTIONS","path":"/api/phq9/analyze","status":200,"duration_ms":0.9}
+2026-08-26 19:00:18,724 INFO neuroai {"event":"phq9_calculated","user_id":9,"score":12,"severity":"Moderate"}
+2026-08-26 19:00:18,726 INFO neuroai {"event":"request_complete","request_id":"54753267-7927-4791-9ac7-1173d2745711","method":"POST","path":"/api/phq9/analyze","status":200,"duration_ms":35.8}
+2026-08-26 19:00:18,731 INFO neuroai {"event":"request_complete","request_id":"9739113f-4690-4d61-baaa-db50213bb67c","method":"OPTIONS","path":"/api/fusion/analyze","status":200,"duration_ms":0.32}
+2026-08-26 19:00:18,918 INFO neuroai {"event":"fusion_completed","user_id":9,"emotion":"joy","risk":"Low","duration_ms":174.04}
+2026-08-26 19:00:18,920 INFO neuroai {"event":"request_complete","request_id":"656fe2d4-966e-45a6-a039-5f7967a9dab6","method":"POST","path":"/api/fusion/analyze","status":200,"duration_ms":185.82}
+2026-08-26 19:00:19,008 INFO neuroai {"event":"request_complete","request_id":"7cd24a09-1a0c-4629-a76f-fea7fbf92f90","method":"GET","path":"/api/reports/history","status":200,"duration_ms":12.02}
+2026-08-26 19:00:50,311 INFO neuroai {"event":"request_complete","request_id":"7503a8c0-edce-43cc-97ef-f26a1541c3e6","method":"OPTIONS","path":"/api/reports/history","status":200,"duration_ms":0.57}
+2026-08-26 19:00:50,354 INFO neuroai {"event":"request_complete","request_id":"c1bf6958-e64f-4262-ae9d-2cb4fdcfe524","method":"GET","path":"/api/reports/history","status":200,"duration_ms":31.59}
+2026-08-26 19:00:50,509 INFO neuroai {"event":"text_inference","user_id":9,"emotion":"joy","duration_ms":207.41}
+2026-08-26 19:00:50,511 INFO neuroai {"event":"request_complete","request_id":"ef899757-c033-477b-8ff7-658a7506c1f9","method":"POST","path":"/api/text/analyze","status":200,"duration_ms":213.6}
+2026-08-26 19:00:50,611 INFO neuroai {"event":"voice_prediction","emotion":"Sad","confidence":34.64,"duration_ms":81.94}
+2026-08-26 19:00:50,629 INFO neuroai {"event":"voice_inference","user_id":9,"emotion":"Sad","duration_ms":100.46}
+2026-08-26 19:00:50,631 INFO neuroai {"event":"request_complete","request_id":"e57b61b9-54b3-4786-a569-d43506bdb7a7","method":"POST","path":"/api/voice/analyze","status":200,"duration_ms":112.87}
+2026-08-26 19:00:50,664 INFO neuroai {"event":"phq9_calculated","user_id":9,"score":12,"severity":"Moderate"}
+2026-08-26 19:00:50,665 INFO neuroai {"event":"request_complete","request_id":"c0b294b9-d340-4c1f-bea6-a4913f089b05","method":"POST","path":"/api/phq9/analyze","status":200,"duration_ms":24.47}
+2026-08-26 19:00:50,842 INFO neuroai {"event":"fusion_completed","user_id":9,"emotion":"joy","risk":"Low","duration_ms":161.56}
+2026-08-26 19:00:50,845 INFO neuroai {"event":"request_complete","request_id":"d2dd2a7d-bbe5-435a-9700-c8cb15d333f8","method":"POST","path":"/api/fusion/analyze","status":200,"duration_ms":171.47}
+2026-08-26 19:00:50,897 INFO neuroai {"event":"request_complete","request_id":"c660222d-8353-4330-8b59-a5a360d96e05","method":"GET","path":"/api/reports/history","status":200,"duration_ms":10.63}
+2026-08-26 19:01:29,138 INFO neuroai {"event":"request_complete","request_id":"0ec2cd36-b33e-4931-884a-ff5d8f3ba2b4","method":"GET","path":"/api/reports/history","status":200,"duration_ms":15.7}
+2026-08-26 19:01:29,339 INFO neuroai {"event":"text_inference","user_id":9,"emotion":"sadness","duration_ms":220.71}
+2026-08-26 19:01:29,341 INFO neuroai {"event":"request_complete","request_id":"a451e992-179f-4741-8ba6-afe5c68b0826","method":"POST","path":"/api/text/analyze","status":200,"duration_ms":232.25}
+2026-08-26 19:01:29,446 INFO neuroai {"event":"voice_prediction","emotion":"Sad","confidence":34.64,"duration_ms":81.62}
+2026-08-26 19:01:29,466 INFO neuroai {"event":"voice_inference","user_id":9,"emotion":"Sad","duration_ms":102.17}
+2026-08-26 19:01:29,468 INFO neuroai {"event":"request_complete","request_id":"c3b55735-d8c4-4146-a8ef-bf3fb8a74bbc","method":"POST","path":"/api/voice/analyze","status":200,"duration_ms":117.56}
+2026-08-26 19:01:29,498 INFO neuroai {"event":"phq9_calculated","user_id":9,"score":12,"severity":"Moderate"}
+2026-08-26 19:01:29,499 INFO neuroai {"event":"request_complete","request_id":"8572fa2c-c506-4ebb-9955-a6ad6e3da926","method":"POST","path":"/api/phq9/analyze","status":200,"duration_ms":26.07}
+2026-08-26 19:01:29,679 INFO neuroai {"event":"fusion_completed","user_id":9,"emotion":"sadness","risk":"Low","duration_ms":159.41}
+2026-08-26 19:01:29,681 INFO neuroai {"event":"request_complete","request_id":"400e1d5d-8545-4d40-8df5-92e011ea7e92","method":"POST","path":"/api/fusion/analyze","status":200,"duration_ms":170.27}
+2026-08-26 19:01:29,740 INFO neuroai {"event":"request_complete","request_id":"52a744f9-1669-4b4c-ab59-e2aefd25d08b","method":"GET","path":"/api/reports/history","status":200,"duration_ms":11.01}
+2026-08-26 19:01:47,402 INFO neuroai {"event":"request_complete","request_id":"e174a833-c2a0-445a-94cc-a65409b776e0","method":"GET","path":"/api/reports/history","status":200,"duration_ms":10.89}
+2026-08-26 19:01:55,329 INFO neuroai {"event":"request_complete","request_id":"23eb2234-b174-42af-82b4-2572105b2966","method":"GET","path":"/api/reports/history","status":200,"duration_ms":13.56}
+2026-08-26 20:11:05,866 INFO neuroai {"event":"request_complete","request_id":"52dca224-8e19-4b99-b8e9-aa7204e7339e","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":16.94}
+2026-08-26 20:11:06,251 INFO neuroai {"event":"request_complete","request_id":"d9c1cbea-5329-4806-9d4c-1ef97698c5ac","method":"GET","path":"/api/auth/me","status":401,"duration_ms":335.67}
+2026-08-26 20:28:32,001 INFO neuroai {"event":"request_complete","request_id":"5751a0b0-b855-44bb-95c2-11af98f7f1e4","method":"OPTIONS","path":"/api/auth/login","status":200,"duration_ms":11.17}
+2026-08-26 20:28:33,129 INFO neuroai {"event":"request_complete","request_id":"990c1e31-2989-4277-8d0d-1ebf488a3c27","method":"POST","path":"/api/auth/login","status":200,"duration_ms":1111.11}
+2026-08-26 20:28:33,167 INFO neuroai {"event":"request_complete","request_id":"c5e0b3aa-caed-4cbd-80e4-602637c2d1a9","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":0.48}
+2026-08-26 20:28:33,197 INFO neuroai {"event":"request_complete","request_id":"57a5e6f2-c87a-4c31-90e2-8dd47cf2d6b9","method":"GET","path":"/api/auth/me","status":200,"duration_ms":22.92}
+2026-08-26 20:28:33,264 INFO neuroai {"event":"request_complete","request_id":"3a0ef59e-ef4e-492e-a9a4-379d832d599f","method":"OPTIONS","path":"/api/reports/history","status":200,"duration_ms":0.55}
+2026-08-26 20:28:33,303 INFO neuroai {"event":"request_complete","request_id":"690bc646-0292-4933-9514-0e5167840c2e","method":"GET","path":"/api/reports/history","status":200,"duration_ms":31.11}
+2026-08-31 18:59:59,421 INFO neuroai {"event":"request_complete","request_id":"44a89257-03f5-40f2-9345-9b7b312643f9","method":"GET","path":"/api/health","status":200,"duration_ms":16.55}
+2026-08-31 19:00:46,140 INFO neuroai {"event":"request_complete","request_id":"0b499f58-94c4-44ff-b5fe-211f55716aa8","method":"OPTIONS","path":"/api/auth/login","status":200,"duration_ms":8.09}
+2026-08-31 19:00:46,653 INFO neuroai {"event":"request_complete","request_id":"693a505c-4109-4538-9b30-d6cbead1ebc1","method":"POST","path":"/api/auth/login","status":200,"duration_ms":503.11}
+2026-08-31 19:00:46,707 INFO neuroai {"event":"request_complete","request_id":"a5943d3f-1b05-4e14-b051-1ad3caa4e7e2","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":1.26}
+2026-08-31 19:00:46,739 INFO neuroai {"event":"request_complete","request_id":"4fa52186-8ba5-406b-943d-b34f6cdc3d57","method":"GET","path":"/api/auth/me","status":200,"duration_ms":18.57}
+2026-08-31 19:00:46,825 INFO neuroai {"event":"request_complete","request_id":"576f87c2-10f6-4536-b0c8-1fa750c35637","method":"OPTIONS","path":"/api/reports/history","status":200,"duration_ms":0.6}
+2026-08-31 19:00:46,895 INFO neuroai {"event":"request_complete","request_id":"e21b4e37-8139-4ac9-a403-b47db3f488a6","method":"GET","path":"/api/reports/history","status":200,"duration_ms":63.72}
+2026-08-31 19:01:11,121 INFO neuroai {"event":"request_complete","request_id":"602283e4-c091-4913-9029-06675b5f55c7","method":"OPTIONS","path":"/api/voice/analyze","status":200,"duration_ms":0.21}
+2026-08-31 19:01:11,265 INFO neuroai {"event":"request_complete","request_id":"b1ef8517-d900-4f38-818c-6f9cb34866e4","method":"POST","path":"/api/voice/analyze","status":400,"duration_ms":136.05}
+2026-08-31 19:02:39,440 INFO neuroai {"event":"voice_prediction","emotion":"Sad","confidence":52.03,"duration_ms":595.14}
+2026-08-31 19:02:39,470 INFO neuroai {"event":"voice_inference","user_id":9,"emotion":"Sad","duration_ms":626.03}
+2026-08-31 19:02:39,471 INFO neuroai {"event":"request_complete","request_id":"a1c8e9de-ad27-406b-9f4c-f690ac010cf8","method":"POST","path":"/api/voice/analyze","status":200,"duration_ms":644.38}
+2026-08-31 19:02:49,630 INFO neuroai {"event":"request_complete","request_id":"607d0bc7-47b9-4dba-b5e7-8f3a8e0e39d5","method":"GET","path":"/api/reports/history","status":200,"duration_ms":28.21}
+2026-08-31 19:02:51,038 INFO neuroai {"event":"request_complete","request_id":"5c450bdf-5e79-4598-945c-0e17812e864e","method":"GET","path":"/api/reports/history","status":200,"duration_ms":19.01}
+2026-08-31 19:41:26,320 INFO neuroai {"event":"request_complete","request_id":"dcb47f67-0f47-421e-844c-22bed08125ba","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":33.14}
+2026-08-31 19:41:26,535 INFO neuroai {"event":"request_complete","request_id":"f284cace-46f7-4278-ae60-29126770a868","method":"GET","path":"/api/auth/me","status":401,"duration_ms":184.69}
+2026-08-31 20:21:37,483 INFO neuroai {"event":"request_complete","request_id":"50d252c3-e868-47ac-a0b9-3e6338a7c173","method":"GET","path":"/api/health","status":200,"duration_ms":27.58}
+2026-08-31 20:23:12,976 INFO neuroai {"event":"request_complete","request_id":"aeda6db3-fd1e-4d60-a850-6a544773a204","method":"OPTIONS","path":"/api/auth/login","status":200,"duration_ms":6.15}
+2026-08-31 20:23:13,773 INFO neuroai {"event":"request_complete","request_id":"3c463dd9-b1f6-4c84-8b8d-abce6be81047","method":"POST","path":"/api/auth/login","status":200,"duration_ms":786.63}
+2026-08-31 20:23:13,834 INFO neuroai {"event":"request_complete","request_id":"97a48e42-03b5-433b-a5bb-00b5e66ce1da","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":0.75}
+2026-08-31 20:23:13,878 INFO neuroai {"event":"request_complete","request_id":"3eb2c3bf-b53e-4108-9fa2-974a6976caeb","method":"GET","path":"/api/auth/me","status":200,"duration_ms":32.26}
+2026-08-31 20:23:13,959 INFO neuroai {"event":"request_complete","request_id":"46bf30cf-79ff-418d-9c43-1cad9fca47f5","method":"OPTIONS","path":"/api/reports/history","status":200,"duration_ms":0.24}
+2026-08-31 20:23:14,020 INFO neuroai {"event":"request_complete","request_id":"2ea43606-793e-455d-a70f-98fb65339afc","method":"GET","path":"/api/reports/history","status":200,"duration_ms":52.85}
+2026-08-31 20:23:26,719 INFO neuroai {"event":"request_complete","request_id":"2597a310-494c-4cea-9c58-dd4f257a90cc","method":"GET","path":"/api/reports/history","status":200,"duration_ms":21.71}
+2026-08-31 20:23:27,318 INFO neuroai {"event":"request_complete","request_id":"2fd39063-c81b-4b08-9b60-2a51fa1c1d04","method":"GET","path":"/api/reports/history","status":200,"duration_ms":23.86}
+2026-08-31 20:23:30,184 INFO neuroai {"event":"request_complete","request_id":"2aae3f05-3da7-4684-85e2-e8fd625afc64","method":"GET","path":"/api/reports/history","status":200,"duration_ms":16.33}
+2026-09-02 12:16:28,130 INFO neuroai {"event":"request_complete","request_id":"965ef051-e421-45de-8edd-974f285e379a","method":"GET","path":"/api/health","status":200,"duration_ms":15.86}
+2026-09-02 12:23:15,126 INFO neuroai {"event":"request_complete","request_id":"599f68e4-e4fb-4514-8e1a-db876ee27920","method":"OPTIONS","path":"/api/auth/login","status":200,"duration_ms":35.79}
+2026-09-02 12:23:16,100 INFO neuroai {"event":"request_complete","request_id":"6fa23915-49c4-431e-9bf7-56a5cf60c47a","method":"POST","path":"/api/auth/login","status":200,"duration_ms":945.88}
+2026-09-02 12:23:16,172 INFO neuroai {"event":"request_complete","request_id":"30d545fd-0d24-42f2-a154-52d58826c966","method":"OPTIONS","path":"/api/auth/me","status":200,"duration_ms":1.05}
+2026-09-02 12:23:16,271 INFO neuroai {"event":"request_complete","request_id":"73ae609a-b591-42aa-adf4-988e9fd1da4d","method":"GET","path":"/api/auth/me","status":200,"duration_ms":52.51}
+2026-09-02 12:23:16,476 INFO neuroai {"event":"request_complete","request_id":"c084c52f-ae26-42fe-b29f-8b48725261be","method":"OPTIONS","path":"/api/reports/history","status":200,"duration_ms":0.47}
+2026-09-02 12:23:16,627 INFO neuroai {"event":"request_complete","request_id":"9bbc9f23-bccd-486e-bb09-0df8c9909c76","method":"GET","path":"/api/reports/history","status":200,"duration_ms":128.69}
+2026-09-02 12:23:21,764 INFO neuroai {"event":"request_complete","request_id":"f4b9d3dd-c6cf-452f-9ac6-cce829051394","method":"GET","path":"/api/reports/history","status":200,"duration_ms":33.74}
+2026-09-02 12:24:02,788 INFO neuroai {"event":"request_complete","request_id":"b598b0ec-5ea2-4bc2-8a0e-ac6413dbc558","method":"POST","path":"/api/auth/login","status":200,"duration_ms":601.52}
+2026-09-02 12:24:02,840 INFO neuroai {"event":"request_complete","request_id":"6ce1c359-dff7-4507-b783-17dbae619620","method":"GET","path":"/api/auth/me","status":200,"duration_ms":12.81}
+2026-09-02 12:24:02,936 INFO neuroai {"event":"request_complete","request_id":"10fee49e-2581-4b29-ae36-74a373f16d26","method":"GET","path":"/api/reports/history","status":200,"duration_ms":28.49}
+2026-09-02 12:24:54,039 INFO neuroai {"event":"request_complete","request_id":"f7ea937b-e333-4b8a-bd57-7e101a1c842c","method":"GET","path":"/api/auth/me","status":200,"duration_ms":10.47}
+2026-09-02 12:24:54,325 INFO neuroai {"event":"request_complete","request_id":"7da1e3ef-cfac-41f2-a681-d50a305ce480","method":"GET","path":"/api/reports/history","status":200,"duration_ms":18.04}
+2026-09-02 12:27:31,155 INFO neuroai {"event":"request_complete","request_id":"ced07c86-62a5-48fe-bdc9-a8e20042c111","method":"GET","path":"/api/health","status":200,"duration_ms":9.41}
+2026-09-02 12:28:47,060 INFO neuroai {"event":"request_complete","request_id":"366eb5ae-a7d4-4e32-ba09-c610bf645ac4","method":"POST","path":"/api/auth/doctor-login","status":404,"duration_ms":15.26}

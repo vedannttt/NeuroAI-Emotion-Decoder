@@ -1,0 +1,10 @@
+INFO:     Started server process [32672]
+INFO:     Waiting for application startup.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 2480.91it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 2546.28it/s]
+2026-08-21 12:20:33,615 WARNING app.services.model_manager Voice model loading warning: No module named 'tensorflow.python'
+2026-08-21 12:20:33,616 INFO app.services.model_manager NeuroAI model loader initialization finished
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

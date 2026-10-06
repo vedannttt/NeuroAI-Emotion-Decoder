@@ -1,0 +1,17 @@
+
+> neuroai-emotion-decoder@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  VITE v5.4.11  ready in 489 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  press h + enter to show help
+12:25:29 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+12:25:29 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+12:25:31 PM [vite] hmr update /src/AnalysisPages.jsx, /src/styles/globals.css
+12:25:33 PM [vite] hmr update /src/FusionPage.jsx, /src/styles/globals.css
+12:25:55 PM [vite] page reload dist/index.html
+12:26:01 PM [vite] page reload dist/index.html
+12:55:19 PM [vite] hmr update /src/components/Sidebar.jsx, /src/styles/globals.css
+12:55:19 PM [vite] hmr update /src/components/Sidebar.jsx, /src/styles/globals.css

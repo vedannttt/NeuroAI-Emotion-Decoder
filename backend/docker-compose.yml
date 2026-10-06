@@ -1,0 +1,20 @@
+services:
+  api:
+    build: .
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://neuroai:neuroai@db:5432/neuroai
+    ports: ["8000:8000"]
+    depends_on: [db, redis]
+    volumes: ["./models:/app/models:ro"]
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: neuroai
+      POSTGRES_PASSWORD: neuroai
+      POSTGRES_DB: neuroai
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+  redis:
+    image: redis:7-alpine
+volumes:
+  postgres_data:

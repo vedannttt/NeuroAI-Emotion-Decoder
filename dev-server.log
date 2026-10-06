@@ -1,0 +1,144 @@
+
+> neuroai-emotion-decoder@1.0.0 dev
+> node start-dev.js
+
+🚀 Starting FastAPI backend server on http://127.0.0.1:8000...
+⚡ Starting Vite frontend dev server...
+Port 5173 is in use, trying another one...
+
+  VITE v5.4.11  ready in 1081 ms
+
+  ➜  Local:   http://127.0.0.1:5174/
+  ➜  press h + enter to show help
+INFO:     127.0.0.1:50109 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62378 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54722 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54727:41:22 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+7:41:22 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+7:41:37 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+7:41:47 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+7:42:22 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+8:08:35 PM [vite] page reload dist/index.html
+8:08:40 PM [vite] page reload dist/index.html
+6 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51659 - "OPTIONS /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51659 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:51525 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:51525 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:51525 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:51525 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61050 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61050 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64578 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64578 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63392 - "GET /api/profileBg.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61099 - "GET /api/bannerLeft.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62774 - "GET /api/bannerRight.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49888 - "GET /api/featureBg.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63392 - "GET /api/black5FeatureBg.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61214 - "GET /api/starBadge.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50373 - "GET /api/upgrade_dialog.webp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61099 - "GET /api/dialogLeft.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62774 - "GET /api/dialogRight.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49888 - "GET /api/badge.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63392 - "GET /api/highLightTitle.png HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54337 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54337 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54337 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54337 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54337 - "OPTIONS /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54337 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49322 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60557 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57052 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57052 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54251 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54148 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54148 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62913 - "OPTIONS /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62913 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:62913 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:62913 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:57797 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52063 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56852 - "POST /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61090 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61090 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "OPTIONS /api/text/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "POST /api/text/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "POST /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "OPTIONS /api/phq9/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "POST /api/phq9/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "OPTIONS /api/fusion/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "POST /api/fusion/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52734 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51984 - "OPTIONS /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51984 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64725 - "POST /api/text/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64725 - "POST /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64725 - "POST /api/phq9/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64725 - "POST /api/fusion/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64725 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51549 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50365 - "POST /api/text/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50365 - "POST /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50365 - "POST /api/phq9/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50365 - "POST /api/fusion/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50365 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58538 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65146 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55287 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55287 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58145 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58145 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58145 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58145 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58145 - "OPTIONS /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58145 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54974 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60492 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60492 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60492 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60492 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60492 - "OPTIONS /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60492 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64987 - "OPTIONS /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64987 - "POST /api/voice/analyze HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:58738 - "POST /api/voice/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61263 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61263 - "GET /api/reports/history HTTP/1.1" 200 OK
+7:41:23 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+INFO:     127.0.0.1:58238 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58238 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+7:41:37 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+7:41:47 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+7:42:22 PM [vite] hmr update /src/main.jsx, /src/styles/globals.css
+8:08:35 PM [vite] page reload dist/index.html
+8:08:40 PM [vite] page reload dist/index.html
+INFO:     127.0.0.1:62139 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61267 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61267 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61267 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61267 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61267 - "OPTIONS /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61267 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54297 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51655 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51655 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51655 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51655 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51655 - "OPTIONS /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51655 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64287 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54957 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54957 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54957 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59859 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59859 - "GET /api/reports/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54207 - "POST /api/auth/doctor-login HTTP/1.1" 404 Not Found

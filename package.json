@@ -1,0 +1,33 @@
+{
+  "name": "neuroai-emotion-decoder",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "dev:frontend": "vite",
+    "dev:backend": "cd backend && .venv_win\\Scripts\\python -m uvicorn app.main:app --host 127.0.0.1 --port 8000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react-swc": "3.7.2",
+    "autoprefixer": "^10.5.4",
+    "chart.js": "latest",
+    "framer-motion": "latest",
+    "postcss": "^8.5.26",
+    "react": "latest",
+    "react-chartjs-2": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "latest",
+    "react-icons": "latest",
+    "react-router-dom": "latest",
+    "react-toastify": "latest",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^3.4.19",
+    "vite": "5.4.11"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
